@@ -7,7 +7,7 @@ int main(){
 		printf("*");	
 		}
 		printf("\n");
-	}*/
+	}
 
 	// reverse pyramid
 	for(int i=8;i>0;i--){
@@ -15,6 +15,17 @@ int main(){
 			printf("*");	
 		}
 		printf("\n");
-	}
-	
+	}*/
+   int i, space, rows=5 , k = 0;
+   for (i = 1; i <= 5;i++, k = 0) {
+      for (space = 1; space <= 5-i;space++) {
+         printf("  ");
+      }
+      while (k != 2 * i - 1) {
+         printf("* ");
+         k++;
+      }
+      printf("\n");
+   }
+   return 0;
 }
