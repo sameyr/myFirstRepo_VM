@@ -11,10 +11,10 @@ int main(){
 	scanf("%d",&operator);
 
 	printf("\n Enter first Number: ");
-	scanf("%lf", num1);
+	scanf("%lf", &num1);
 
 	printf("\n Enter second Number: ");
-	scanf("%lf", num2);
+	scanf("%lf", &num2);
 	
 	switch(operator){
 		case '+':
