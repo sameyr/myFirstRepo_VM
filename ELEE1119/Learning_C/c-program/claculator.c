@@ -7,9 +7,10 @@ int main(){
 	double num2;
 	double result;
 
-	printf("\n Enter an Operator: ");
+	printf("\n Enter an Operator( + - * /): ");
 	scanf("%d",&operator);
-
+	
+	printf("%d", operator);
 	printf("\n Enter first Number: ");
 	scanf("%lf", &num1);
 
@@ -19,22 +20,22 @@ int main(){
 	switch(operator){
 		case '+':
 			result= num1 + num2;
-			printf("result : %d",result);
+			printf("result : %lf",result);
 			break;
 		case '-':
 			result= num1 - num2;
-			printf("result : %d",result);
+			printf("result : %lf",result);
 			break;
 		case '*':
 			result= num1 * num2;
-			printf("result : %d",result);
+			printf("result : %lf",result);
 			break;
 		case '/':
 			result = num1/num2;
-			printf("result : %d",result);
+			printf("result : %lf",result);
 			break;
 		default:
-			printf("Operatore is invalid");
+			printf("Operatore is invalid\n");
 			break;
 			
 	}
