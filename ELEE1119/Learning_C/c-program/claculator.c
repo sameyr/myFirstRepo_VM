@@ -10,8 +10,6 @@ int main(){
 	printf("\n Enter an Operator: ");
 	scanf("%d",&operator);
 
-	printf("%d", operator);
-
 	printf("\n Enter first Number: ");
 	scanf("%lf", num1);
 
