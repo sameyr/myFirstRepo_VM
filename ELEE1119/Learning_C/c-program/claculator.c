@@ -10,12 +10,19 @@ int main(){
 	printf("\n Enter an Operator( + - * /): ");
 	scanf("%d",&operator);
 	
-	printf("%d", operator);
-	printf("\n Enter first Number: ");
+	printf("\n Enter your First Number: ");
 	scanf("%lf", &num1);
 
-	printf("\n Enter second Number: ");
+	printf("\n Enter your Second Number: ");
 	scanf("%lf", &num2);
+
+	/*if (operator == '+'){ 
+		result = num1 + num2;
+		printf("%d",result);
+	}
+	else{
+		printf("Invalid Operator");
+	}*/
 	
 	switch(operator){
 		case '+':
@@ -35,9 +42,9 @@ int main(){
 			printf("result : %lf",result);
 			break;
 		default:
-			printf("Operatore is invalid\n");
+			printf("Operatore is invalid \n");
 			break;
 			
 	}
-	return 0;
+
 }
